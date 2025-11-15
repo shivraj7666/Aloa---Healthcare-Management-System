@@ -5,6 +5,7 @@ Aloa provides separate dashboards for Patients, Doctors, and Admins, making the 
 
 🚀 Features
 👤 Patient Features
+
 ✔ Register & Login securely
 ✔ Book appointments with doctors
 ✔ View appointment history
@@ -13,6 +14,7 @@ Aloa provides separate dashboards for Patients, Doctors, and Admins, making the 
 ✔ Manage profile
 
 🩺 Doctor Features
+
 ✔ View upcoming appointments
 ✔ Accept or reject patient appointments
 ✔ Add and update prescriptions
@@ -20,12 +22,14 @@ Aloa provides separate dashboards for Patients, Doctors, and Admins, making the 
 ✔ Receive alert notifications
 
 🛠 Admin Features
+
 ✔ Manage all users (Patients & Doctors)
 ✔ View and monitor appointments across the system
 ✔ Manage alerts/logs
 ✔ Maintain database consistency
 
 🗂️ Tech Stack
+
 ✔ Frontend
 ✔ React + TypeScript
 ✔ Vite
@@ -42,11 +46,13 @@ Aloa provides separate dashboards for Patients, Doctors, and Admins, making the 
 ✔ MongoDB (MongoDB Atlas recommended)
 
 🔐 Authentication & Authorization
+
 ✔ JWT-based authentication
 ✔ Role-based access control (Patient / Doctor / Admin)
 ✔ Protected routes in frontend using custom ProtectedRoute component
 
 📡 API Modules
+
 ✔ Auth API
 ✔ Register
 ✔ Login
