@@ -4,90 +4,55 @@ A modern full-stack web application designed to simplify and digitize healthcare
 Aloa provides separate dashboards for Patients, Doctors, and Admins, making the system organized, efficient, and easy to use.
 
 🚀 Features
-👤 Patient Features
 
-✔ Register & Login securely
-✔ Book appointments with doctors
-✔ View appointment history
-✔ View health records
-✔ Receive alerts & notifications
-✔ Manage profile
+Patient Features -
+Register and login securely
+Book appointments with doctors
+View appointment history
+View health records
+Receive alerts and notifications
+Manage profile
 
-🩺 Doctor Features
+Doctor Features -
+View upcoming appointments
+Accept or reject patient appointments
+Add and update prescriptions
+Manage patient health records
+Receive alert notifications
 
-✔ View upcoming appointments
-✔ Accept or reject patient appointments
-✔ Add and update prescriptions
-✔ Manage patient health records
-✔ Receive alert notifications
-
-🛠 Admin Features
-
-✔ Manage all users (Patients & Doctors)
-✔ View and monitor appointments across the system
-✔ Manage alerts/logs
-✔ Maintain database consistency
+Admin Features -
+Manage all users including patients and doctors
+View and monitor appointments across the system
+Manage alerts and logs
+Maintain database consistency
 
 🗂️ Tech Stack
 
-✔ Frontend
-✔ React + TypeScript
-✔ Vite
-✔ Tailwind CSS
-✔ Context API for state management
-✔ Axios for API calls
-✔ Backend
-✔ Node.js
-✔ Express.js
-✔ JWT Authentication
-✔ Mongoose (MongoDB ODM)
-✔ CORS enabled APIs
-✔ Database
-✔ MongoDB (MongoDB Atlas recommended)
+Frontend -
+React with TypeScript
+Vite as the build tool
+Tailwind CSS for styling
+Context API for state management
+Axios for API communication
 
-🔐 Authentication & Authorization
+Backend -
+Node.js
+Express.js
+JWT authentication
+Mongoose as MongoDB ODM
+CORS-enabled APIs
 
-✔ JWT-based authentication
-✔ Role-based access control (Patient / Doctor / Admin)
-✔ Protected routes in frontend using custom ProtectedRoute component
+Database -
+MongoDB or MongoDB Atlas
 
-📡 API Modules
+🔐 Authentication & Authorization -
+The system uses JWT-based authentication.
+It supports role-based access control for Patients, Doctors, and Admins.
+Protected routes in the frontend are implemented using a custom ProtectedRoute component.
 
-✔ Auth API
-✔ Register
-✔ Login
-✔ Role-based onboarding
-✔ Appointment API
-✔ Book appointment
-✔ Fetch appointments by role
-✔ Approve / reject appointments
-✔ Health Records API
-✔ Add / update / view records
-✔ Prescription API
-✔ Add prescriptions
-✔ Fetch patient prescriptions
-✔ Alert API
-
-🧱 Project Structure
-project/
-│
-├── aloa-backend/
-│   ├── config/
-│   ├── middleware/
-│   ├── models/
-│   ├── routes/
-│   ├── utils/
-│   ├── server.js
-│   └── package.json
-│
-├── src/  (Frontend)
-│   ├── components/
-│   ├── contexts/
-│   ├── pages/
-│   ├── App.tsx
-│   ├── main.tsx
-│   └── index.css
-│
-├── .gitignore
-├── package.json
-└── README.md
+📡 API Modules -
+Auth API supports registration, login, and role-based onboarding.
+Appointment API allows booking appointments, viewing appointments by role, and approving or rejecting appointments.
+Health Records API enables adding, updating, and viewing medical records.
+Prescription API supports adding prescriptions and fetching patient prescriptions.
+Alert API handles creating alerts and fetching alerts based on user type.
